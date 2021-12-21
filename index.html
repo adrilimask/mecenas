@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mecenas - Página Inicial</title>
+    <script src="https://kit.fontawesome.com/4b04125b66.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <a class="navbar-brand" href="/prjeto-mecenas/index.html">
+          <img src="./img/mecenas-logo.png" alt="Marca do Mecenas, composta por duas máscaras de Teatro, com um microfone e uma nota musical sobre uma moldura de quadro." width="150" height="150">
+        </a>
+      </div>
+      <h1>Home</h1>
+    </nav>
+
+    <div class="container-fluid">
+      <form class="d-flex justify-content-center align-items-center">
+        <label class="m-0 p-0">Procurar na plataforma:</label>
+        <input type="search" placeholder="Ex.: artista, local, evento.">
+        <i class="fas fa-search"></i>
+      </form>
+
+      <a href="./minha-arte.html"><button class="bigbutton"><i class="fas fa-hand-holding-heart"></i>Minha arte</button></a>
+      <a href="./locais-adm.html"><button class="bigbutton"><i class="fas fa-map-marked"></i>Locais que administro</button></a>
+      <a href="./projetos.html"><button class="bigbutton"><i class="fas fa-project-diagram"></i>Projetos</button></a>
+
+      <p><i class="fas fa-users"></i>Artistas que sigo:</p>
+      <div class="container-fluid lista">
+        <a href="./perfil-artista.html">
+          <div class="card">
+            <img src="./img/avatar-presto.png" alt="Imagem do usuário" class="avatar">
+            <p>Presto</p>
+          </div>
+        </a>
+        <a href="./perfil-artista.html">
+          <div class="card">
+            <img src="./img/avatar-sheila.png" alt="Imagem do usuário" class="avatar">
+            <p>Sheila</p>
+          </div>
+        </a>
+        <a href="./perfil-artista.html">
+          <div class="card">
+            <img src="./img/avatar-hank.png" alt="Imagem do usuário" class="avatar">
+            <p>Hank</p>
+          </div>
+        </a>
+        <div class="card">
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+      </div>
+
+      <p><i class="fas fa-map-marked-alt"></i>Locais que sigo:</p>
+      <div class="container-fluid lista">
+        <a href="./perfil-local.html">
+          <div class="card">
+            <img src="./img/avatar-coco.png" alt="Imagem do local" class="avatar">
+            <p>Coco Bongo</p>
+          </div>
+        </a>
+        <a href="./perfil-local.html">
+          <div class="card">
+            <img src="./img/avatar-moe.png" alt="Imagem do local" class="avatar">
+            <p>Bar do Moe</p>
+          </div>
+        </a>
+        <a href="./perfil-local.html">
+          <div class="card">
+            <img src="./img/avatar-moulin.png" alt="Imagem do local" class="avatar">
+            <p>Moulin Rouge</p>
+          </div>
+        </a>
+        <div class="card">
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+      </div>
+
+      <a href="./feed.html"><button class="bigbutton"><i class="fas fa-rss"></i>Mix de atualizações</button></a>
+      <a href="./explore.html"><button class="bigbutton"><i class="fas fa-city"></i>Explorar cidade</button></a>
+
+    </div>
+
+    <footer class="container-fluid">
+      <p>
+        Desenvolvido por Adriano Mascarenhas Lima para o Fullture Challenge entre novembro e dezembro de 2021, sob orientação da professora Tatiana Alencar.
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index-scripts.js"></script>
+  </body>
+</html>
